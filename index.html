@@ -3,32 +3,47 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>q-drug.com</title>
+<title>nan-fedora</title>
 <style>
   :root { color-scheme: light dark; }
-  body { max-width: 40rem; margin: 4rem auto; padding: 0 1.25rem;
-         font: 16px/1.65 -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; }
-  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
-  .sub { opacity: .65; margin-top: 0; }
+  body { max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem;
+         font: 16px/1.7 -apple-system, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  .sub { opacity: .7; margin-top: 0; }
   ul { padding-left: 1.2rem; }
   footer { margin-top: 3rem; opacity: .6; font-size: .875rem; }
 </style>
 </head>
 <body>
-  <h1>q-drug.com</h1>
-  <p class="sub">A personal domain used for private tools and experiments.</p>
+  <h1>nan-fedora</h1>
+  <p class="sub">A personal dotfiles repository and command-line toolset.</p>
 
-  <p>This domain hosts the public pages required by the Google APIs used by a
-     personal, single-user command-line tool that reads and manages the owner's
-     own Gmail mailbox.</p>
+  <p><strong>nan-fedora</strong> is a single-user project: a dotfiles repository
+     plus a set of command-line tools used by one person to set up and maintain
+     their own machines. It is not distributed to, or operated for, the public.</p>
 
+  <h2>Why it asks for Google access</h2>
+  <p>One of its tools is a Gmail command-line client that lets the owner read,
+     search, organise and send mail from their own Gmail account using the
+     Gmail API. Authorization is requested only for the owner's own account, and
+     only for these purposes:</p>
   <ul>
-    <li><a href="/privacy">Privacy Policy</a></li>
-    <li><a href="/terms">Terms of Service</a></li>
+    <li>listing, searching and reading messages, threads and attachments;</li>
+    <li>sending, replying, forwarding, drafting and archiving messages;</li>
+    <li>managing labels, filters and mailbox settings.</li>
   </ul>
 
+  <h2>How your data is handled</h2>
+  <p>Mail content is processed locally on the owner's own devices and is never
+     transmitted to, stored by, or shared with any third-party server operated by
+     this project. There is no analytics, no advertising, and no use of Google
+     user data for training machine-learning models. See the
+     <a href="/privacy/">Privacy Policy</a> for details, and the
+     <a href="/terms/">Terms of Service</a> for the terms that apply.</p>
+
   <footer>
-    Contact: <a href="mailto:qiaonancn@gmail.com">qiaonancn@gmail.com</a><br>
+    Operator contact: <a href="mailto:qiaonancn@gmail.com">qiaonancn@gmail.com</a><br>
     Last updated: 2026-09-14
   </footer>
 </body>
